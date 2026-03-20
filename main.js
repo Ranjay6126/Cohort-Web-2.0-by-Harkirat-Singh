@@ -388,3 +388,24 @@ person.greet(); // ❌ undefined
 Q))  keywords :=> are reserved words that have a specific meaning and purpose in the language. These cannot be used as variable names, function names, or identifiers.
 	○ var, let, const   || if, else, else if || do, for, while || function || Class || 
  */
+
+    🔵 What is the Event Loop?
+In JavaScript, the Event Loop is a mechanism that helps JavaScript handle multiple operations asynchronously, even though JavaScript itself is single-threaded (It can only do one thing at a time on the Call Stack.)
+Think of it like a manager who takes tasks from a queue and gives them to JavaScript to execute when it is free.
+
+✅ If YES → Take the first callback from the Task Queue and push it to the Call Stack.
+🔵 Key Components involved:
+	1. Call Stack 
+Where functions are executed one at a time.
+(Like a stack of plates — Last In, First Out.)
+	
+	2. Web APIs (or browser APIs)
+For handling tasks like setTimeout, HTTP requests (fetch), DOM events (like clicks), etc.
+	
+	3. Callback Queue / Task Queue 
+When Web APIs finish, their callbacks (functions) wait here.
+	
+	4. Event Loop
+Keeps checking:
+		○ "Is the Call Stack empty?"
+If yes, it moves a callback from the Task Queue to the Call Stack for execution.
