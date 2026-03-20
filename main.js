@@ -284,3 +284,107 @@ console.log(sum); // Output: NaN
 		
 		○ const: is Block-scoped, must be initialized, and  // once we declared const through out the program the value remain same
  // cannot be reassigned. And Redeclared……………………….. */
+
+
+
+
+ /*5. What is the difference between == and ===?
+
+>> 
+• == (Loose Equality Operator):
+Compares two values for equality after converting them to the same type.
+
+🔸 == (Loose Equality )
+	• Compares values after converting them to the same type.
+	• Performs type coercion if needed.
+	• It checks for equality of value, but not necessarily the type.
+
+Example:
+5 == '5'     // true (string '5' is converted to number 5)
+null == undefined  // true (treated as loosely equal)
+
+
+• === (Strict Equality Operator):
+Compares two values for equality without converting their types (type and value must match).
+🔸 === (Strict Equality)
+	• Compares both value and data type.
+	• No type conversion is done.
+	• If types are different, it returns false.
+Example:
+5 === '5'    // false (number !== string)
+……null === undefined  // false (different types)
+5 === 5      // true (same type and value
+
+In JavaScript, the difference between == and === is that
+ ==  performs type coercion, meaning it converts the values to the same type before comparison.
+
+ On the other hand, === checks both the value and the type, so no type conversion happens.
+
+As a result, == is used with implicit type coercion Implicit conversion happens automatically by JavaScript, without any explicit instruction from the developer, 
+
+, while === is used with explicit type,     
+explicit conversion is done manually, with the developer explicitly specifying how the conversion should take place.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+JavaScript Frameworks and Libraries
+	1. What is a JavaScript framework?
+	• A Set of  pre-written code  that provides a structure for developing  S/W app.  Ex:=> Angular , Express.js
+
+
+	1. What is a JavaScript library?
+	• A collection of pre-written code that can be used to perform specific tasks. EX:=> React, Jquery, Axios
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+3. What is JSON and how is it used in JavaScript?
+• JavaScript Object Notation, a lightweight data-interchange format. It's used to exchange data between a web server and a web page. Data is represented as key-value pairs. Keys must be strings (enclosed in double quotes).
+{
+  "name": "Dhanush",
+  "age": 21,
+  "isStudent": true,
+  "skills": ["C++", "JavaScript", "SQL"],
+  "address": {
+    "city": "Kathmandu",
+    "country": "Nepal"
+  }
+}
+
+4. How do you select elements in the DOM?
+• Using methods like getElementById(), getElementsByClassName(), and querySelector().
+
+5. Explain the difference between innerHTML and innerText.
+• innerHTML replaces the content of an element, including HTML tags.
+•  innerText replaces the text content only.
+
+6. How do you create a new element in the DOM?
+• Use createElement(), set attributes, and append it to a parent element using appendChild().
+
+
+7. What is the this keyword in JavaScript?
+>>this in JavaScript refers to the object that is currently using or calling the function.
+const person = {
+  name: "Asha",
+  greet: function () {
+    console.log("Hello, my name is " + this.name);
+  }
+};
+person.greet(); // "Hello, my name is Asha"
+
+//\\ ______________________________________________||\\
+
+let person = {
+  name: "Dhanush",
+  greet: () => {
+    console.log("Hi, I am " + this.name);
+  }
+};
+
+person.greet(); // ❌ undefined
+🧩 Because arrow functions don’t bind this — here, this refers to the outer/global scope, not person.   
+
+
+
+Q))  keywords :=> are reserved words that have a specific meaning and purpose in the language. These cannot be used as variable names, function names, or identifiers.
+	○ var, let, const   || if, else, else if || do, for, while || function || Class || 
+ */
