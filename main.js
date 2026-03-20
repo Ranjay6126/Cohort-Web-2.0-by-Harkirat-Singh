@@ -149,3 +149,138 @@ for(let i=0; i<arr.length; i++){
 2. Write a program to print the biggest number in an arrya
 3. Write a program that prints all the male people's first name given a complex object
 4. Write a program that reverses all the elements of an array*/ 
+
+
+
+
+/*. How is JavaScript different from Java?
+	○ JavaScript is a scripting language, while Java is a compiled language. JavaScript runs directly in the browser, while Java requires a java virtual machine.(JVM).
+
+
+2. What are JavaScript data types?
+Data types represent the kind of value stored:
+	• Primitive types: Number, String, Boolean, Undefined, Null, Symbol, BigInt.
+	• Non-primitive type: Object., Array , Function  (Reference Types)
+DATA TYPES :- Type of data a variable can hold in programming languages.
+
+
+Common types of datatypes:
+Primitive datatypes: They are immutable, meaning their values cannot be changed once assigned. When you assign or pass a primitive type, JavaScript works with the actual value.(Primitive types are Call by Values => means Change in the Copy)
+
+
+• Number:
+	• Represents both integers and floating-point numbers.
+	• Example:
+
+let age = 25;
+let price = 9.99;
+	
+• String:
+	• Represents a sequence of characters (text).
+	• Example:
+	let name = "Alice";
+	
+• Boolean:
+	• Represents a logical entity and can have only two values: true or false.
+
+
+let isValid = true;
+
+• Null:
+	• Represents the intentional absence of any object value. It's a primitive type and evaluates to null.
+	
+	let emptyValue = null;
+	
+• Undefined:
+	• Represents a variable that has been declared but has not yet been assigned a value.
+	
+	• let x;
+console.log(x); // Output: undefined
+	
+• Symbol (introduced in ES6):
+	• Represents a unique identifier. Symbols are guaranteed to be unique, even if they have the same description.
+	
+	• let sym = Symbol('id');
+	
+• BigInt (introduced in ES2020):
+	• Represents integers with arbitrary precision, allowing you to work with numbers larger than the Number type can safely represent.
+	
+	let bigNumber = 1234567890123456789012345678901234567890n;
+	
+	2. Non-Primitive (Reference) Data Types:
+	Non-primitive data types (also known as reference types(change in the original values) are objects in JavaScript. They are mutable, meaning their values can be changed after assignment. These types are not stored directly in memory but are accessed via references (pointers) to memory locations.
+	Types of Non-Primitive Data Types:
+		1. Object:
+			○ The most general type of reference data. Objects are collections of key-value pairs where values can be of any type (primitive or non-primitive).
+			○ Example:
+
+javascript
+
+let person = {
+  name: "Alice",
+  age: 25
+};
+			
+		2. Array:
+			○ Arrays are special types of objects used to store ordered collections of values (of any type).
+			○ Example:
+
+javascript
+
+let numbers = [1, 2, 3, 4];
+			
+		3. Function:
+			○ Functions are objects in JavaScript. They are first-class citizens, meaning they can be assigned to variables, passed as arguments, and returned from other functions.
+			○ Example:
+
+javascript
+
+function greet() {
+  console.log("Hello!");
+}
+			○ Greet();
+			
+		4. Date:
+			○ JavaScript has a built-in Date object to handle dates and times.
+			Example:
+
+javascript
+			let today = new Date();
+			
+		5. RegExp:
+			○ Regular expressions are special objects used for pattern matching in strings.
+			○ Example:
+
+javascript
+			○ let regex = /hello/i;
+	
+
+22. What is NaN?
+NaN stands for "Not-a-Number." It's a special value when a mathematical operation fails.
+const num = 10;
+const str = "hello";
+
+const result = num + str;
+console.log(result); // "10hello"
+
+NAN
+const num = 10;
+const str = "hello";
+
+const result = num + Number(str);
+console.log(result); // NaN
+
+let x;
+const sum = x + 10;
+console.log(sum); // Output: NaN
+
+
+
+	3. What is the difference between let, var, and const?
+	
+		○ var: is Global or function-scoped, but not blocked ,can be redeclared. And Reassigned it Values 
+		
+		○ let: is Block-scoped, cannot be redeclared. But can be Reassigned the value….
+		
+		○ const: is Block-scoped, must be initialized, and  // once we declared const through out the program the value remain same
+ // cannot be reassigned. And Redeclared……………………….. */
