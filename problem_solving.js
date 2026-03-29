@@ -39,3 +39,13 @@ const alluser =[{
 for(let i=0; i<alluser.length; i++){
     console.log(alluser[i].firstphone);
 }
+
+
+//Functions
+
+function add(a,b){
+    return a+b;
+}
+console.log(add(4,6));
+
+
