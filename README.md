@@ -37,4 +37,5 @@ Frontend: HTML, CSS, JavaScript
 Backend: Node.js, Express.js
 Database: MongoDB, PostgreSQL
 Tools: Git, Postman, VS Code
-Other: JWT, Zod, Prisma
+Other: JWT, Zod, Prisma.
+
