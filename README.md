@@ -1,7 +1,7 @@
 
 "# Cohort-Web-2.0-by-Harkirat-Singh" 
 
-🚀 Cohort Web 2.0 by Harkirat Singh
+🚀 Cohort Web 2.0 by Harkirat Singh.
 
 This repository contains all the learning resources, notes, projects, and assignments from the Cohort Web 2.0 program by Harkirat Singh.
 It focuses on building strong fundamentals in full-stack web development, backend systems, and real-world applications.
