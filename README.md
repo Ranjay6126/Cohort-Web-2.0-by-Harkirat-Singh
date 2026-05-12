@@ -19,7 +19,7 @@ It focuses on building strong fundamentals in full-stack web development, backen
 ✅ TypeScript (Beginner → Advanced)
 ✅ ORMs (Prisma / Mongoose)
 ✅ Backend Architecture
-📁 Folder Structure
+📁 Folder Structure.
 Cohort-Web-2.0/
 │
 ├── Week-1/            # Basics of JavaScript
