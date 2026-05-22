@@ -9,7 +9,7 @@ It focuses on building strong fundamentals in full-stack web development, backen
 📚 What You'll Learn.
 ✅ JavaScript (Core + Advanced)
 ✅ Asynchronous Programming
-✅ Node.js Runtime
+✅ Node.js Runtime.
 ✅ Express.js Framework
 ✅ REST APIs
 ✅ Databases (MongoDB & PostgreSQL)
