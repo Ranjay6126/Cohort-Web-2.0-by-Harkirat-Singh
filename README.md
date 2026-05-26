@@ -1,5 +1,4 @@
-
-"# Cohort-Web-2.0-by-Harkirat-Singh" 
+# Cohort-Web-2.0-by-Harkirat-Singh
 
 🚀 Cohort Web 2.0 by Harkirat Singh.
 
