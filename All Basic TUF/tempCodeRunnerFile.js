@@ -1,3 +1,1 @@
-const url = "https://ranjaybabu.com/ranjay%20prajapati";
-
-console.log(url.replace('%20','_'));
+console.log(url.includes('ranjay'));
