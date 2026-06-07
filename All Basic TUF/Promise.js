@@ -1,3 +1,4 @@
+// Promise// 
 const fatchData = new Promise((resolve, reject) => {
     let success = false;
 
