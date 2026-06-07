@@ -57,3 +57,10 @@ fetchData
   .catch((error) => {
     console.error(error); // Output: Failed to fetch data!
   });
+
+  // hosting 
+
+  console.log(name)
+  var name = "ranjay";
+  
+  
