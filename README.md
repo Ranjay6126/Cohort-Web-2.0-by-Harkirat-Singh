@@ -16,7 +16,7 @@ It focuses on building strong fundamentals in full-stack web. development, backe
 ✅ Middleware & Routing
 ✅ Error Handling & Status Codes
 ✅ TypeScript (Beginner → Advanced)
-✅ ORMs (Prisma / Mongoose)
+✅ ORMs (Prisma / Mongoose).
 ✅ Backend Architecture
 📁 Folder Structure.
 Cohort-Web-2.0/
